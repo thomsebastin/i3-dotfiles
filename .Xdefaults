@@ -1,0 +1,64 @@
+URxvt*termName: rxvt
+
+## borderless and no scrollbar
+URxvt*scrollBar_right: false
+URxvt*scrollBar: false
+URxvt*borderLess: false
+
+## teh transparency stuff
+#URxvt*inheritPixmap: true
+URxvt*tintColor: white
+URxvt*shading: 100
+
+##
+## These 3 lines make links clickable
+##
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+URxvt.perl-ext-common: matcher,readline
+
+## geometry and font
+URxvt*geometry: 80×15
+
+## change default colors
+URxvt*background: #000000
+URxvt*foreground: #A8A8A8
+URxvt*color0: #000000
+URxvt*color1: #A80000
+
+## URxvt*color2: #00A800
+URxvt*color2: #ED254F
+
+URxvt*color3: #A85400
+## main bars in irssi
+URxvt*color4: #020202
+URxvt*color5: #A800A8
+URxvt*color6: #00A8A8
+URxvt*color7: #A8A8A8
+URxvt*color8: #545054
+URxvt*color9: #F85450
+
+## Time in Irssi
+URxvt*color10: #ED254F
+## URxvt*color10: #50FC50
+
+## URxvt*color11: #F2FC50
+URxvt*color11: #ED254F
+
+URxvt*color12: #5054F8
+
+URxvt*color13: #ED254F
+## URxvt*color13: #F854F8
+
+URxvt*color14: #50FCF8
+URxvt*color15: #F8FCF8
+
+URxvt*font: xft:Monospace:pixelsize=13
+
+URxvt*boldFont: xft:Monospace:pixelsize=13
+
+# add tabbled in urxvt
+URxvt.perl-ext-common: ...,tabbed,...
+
+
+
